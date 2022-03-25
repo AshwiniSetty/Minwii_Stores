@@ -2,6 +2,7 @@
 @import url('/css/navbar.css');
 @import url('/css/mainpage.css');
 @import url('/css/main.css');
+@import url('/css/wishlist_page.css');
 
 
 
@@ -11,6 +12,7 @@
     --primary-hover-color: #9AD0EC;
     --secondary-color: #E3BEC6;
     --secondary-hover-color: #EFDAD7;
+    --red-color: #DC143C;
 
     --white: #ffffff;
     --bg-color: #FAF9F6;
