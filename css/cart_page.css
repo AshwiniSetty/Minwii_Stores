@@ -1,0 +1,79 @@
+.doc-container .cart-page {
+  max-width: 60%;
+  gap: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.doc-container .cart-price {
+  gap: 10px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.doc-container .doc-content .cart-item-list .card-horizontal {
+  max-height: max-content;
+  position: relative;
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-card {
+  width: 400px;
+  height: max-content;
+}
+
+.price-card .card-title {
+  font-size: 1.2rem;
+  padding: 8px;
+  font-weight: 600;
+  padding-left: 0%;
+
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.price-card .price {
+  padding: 4px;
+}
+
+.price-card .total {
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--default-color);
+  border-top: 1px solid var(--default-color);
+}
+
+@media screen and (max-width: 600px) {
+  .doc-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .card-horizontal {
+    max-height: max-content;
+    padding: 0;
+  }
+
+  .card-horizontal .card-main {
+    flex-direction: column;
+  }
+
+  .card-horizontal .card-content {
+    margin: 0;
+  }
+
+  .price-card {
+    max-width: fit-content;
+  }
+}
