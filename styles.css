@@ -1,6 +1,9 @@
 @import url('https://minwii-ui.netlify.app/css/components.css');
 @import url('/css/navbar.css');
 @import url('/css/mainpage.css');
+@import url('/css/main.css');
+
+
 
 :root{
     --default-color: #28282B;
