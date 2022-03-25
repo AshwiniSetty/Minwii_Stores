@@ -57,7 +57,7 @@ label{
 }
 
 .card-vertical {
-    max-width: 300px;
+    max-width: 250px;
     width: 100%;
     height: max-content;
 }
@@ -77,10 +77,10 @@ label{
     margin-top: 0.8rem;
 }
 
-
 .card-btn:hover{
     color: var(--primary-color);
 }
+
 
 
 @media screen and (max-width : 800px){
