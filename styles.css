@@ -1,0 +1,15 @@
+@import url('https://minwii-ui.netlify.app/css/components.css');
+@import url('/css/navbar.css');
+@import url('/css/mainpage.css');
+@import url('/css/main.css');
+
+:root{
+    --default-color: #28282B;
+    --primary-color: #1572A1;
+    --primary-hover-color: #9AD0EC;
+    --secondary-color: #E3BEC6;
+    --secondary-hover-color: #EFDAD7;
+
+    --white: #ffffff;
+    --bg-color: #FAF9F6;
+}
