@@ -5,6 +5,7 @@
 @import url('/css/wishlist_page.css');
 @import url('/css/cart_page.css');
 @import url('/css/login_page.css');
+@import url('/css/logout_page.css');
 
 
 
@@ -15,6 +16,7 @@
     --secondary-color: #E3BEC6;
     --secondary-hover-color: #EFDAD7;
     --red-color: #DC143C;
+    --green-color: green;
 
     --white: #ffffff;
     --bg-color: #FAF9F6;
