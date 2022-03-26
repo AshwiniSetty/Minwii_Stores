@@ -6,6 +6,15 @@
     align-items: center;
 }
 
+.doc-container-signup{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 .doc-container-login .form-input label{
     font-size: 1rem;
 }
@@ -15,7 +24,14 @@
     margin-bottom: 1.2rem;
 }
 
-.login-form{
+.doc-container-signup .input-text{
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+
+
+.form-input{
     background-color: var(--white);
     padding: 3rem;
     width: 400px;
