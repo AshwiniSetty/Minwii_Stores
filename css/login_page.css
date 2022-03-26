@@ -42,6 +42,36 @@
     margin-bottom: 1.2rem;
 }
 
+
+form.hide_show input[type="password"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--default-color);
+    border-right: none;
+    float: left;
+    width: 80%;
+  }
+
+.input-text{
+    border-radius: 0%;
+}
+  
+  form.hide_show button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    border-left: none;
+    font-size: 1rem;
+    border: 1px solid var(--default-color);
+    border-left: none;
+    cursor: pointer;
+    background-color: var(--white);
+  }
+
+  form.hide_show button:hover{
+      color: var(--primary-color);
+  }
+
 .login-footer{
     display: flex;
     justify-content: space-between;
