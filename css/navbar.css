@@ -6,7 +6,7 @@ nav {
 
 .left-nav a {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .left-nav .btn-icon {
@@ -21,7 +21,7 @@ nav {
   color: var(--default-color);
 }
 
-.btn-con a {
+.btn-icon a {
   padding: 1.5rem;
   font-size: 6rem;
   border: none;
@@ -36,10 +36,6 @@ nav {
   color: var(--primary-color);
 }
 
-.fa-user {
-  margin-right: 5px;
-}
-
 .badge-status.badge-notification {
   left: 55%;
   bottom: 55%;
@@ -52,6 +48,12 @@ nav {
 
 .right-nav a {
   padding: 0.5rem;
+}
+
+.right-nav .logout a{
+  font-size: 1.4rem;
+  font-weight: 200;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .search-text {
